@@ -2,7 +2,8 @@
 
 This repo consists of two Python files:
 
-stock-agg.py: A data aggregator of tech stocks that uses Yahoo finance to retrieve stock data every minute for a week of trading (2100 data points for each stock).  Stock prices are stored in PyMongo collection "stocks".  Given the long execution time, it's best to run on VM (in the background.  
+### stock-agg.py: 
+A data aggregator of tech stocks that uses Yahoo finance to retrieve stock data every minute for a week of trading (2100 data points for each stock).  Stock prices are stored in PyMongo collection "stocks".  Given the long execution time, it's best to run on VM (in the background.  
 
 To run stock-agg.py (commands are in []:
 * Clone the repo to your VM and go to the folder: [cd stocks]
