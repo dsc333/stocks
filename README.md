@@ -12,4 +12,5 @@ To run stock-agg.py (commands are in []:
 * Go to PyMongo Network settings and add your VM's public IP address to the allow list.
 * Replace the connection string with your connection string.
 * Execute the program using the command:  [nohup python3 stock-agg.py &]
-* nohup allows the program to continue running even after you disconnect from your VM.  The program will run for 5 weekdays.  If you want to stop it sooner you'll need to kill the process.  Type [ps ux] to get the list of processes, and then [kill -9 PID] where PID is the process ID associated with python.  
+
+nohup allows the program to continue running even after you disconnect from your VM.  The program will run for 5 weekdays.  If you want to stop it sooner you'll need to kill the process.  Type [ps ux] to get the list of processes, and then [kill -9 PID] where PID is the process ID associated with python.  
