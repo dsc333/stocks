@@ -13,7 +13,7 @@ To run stock-agg.py:
 * Replace the connection string with your connection string.
 * Execute the program using the command:  `nohup python3 stock-agg.py &`
 
-nohup allows the program to continue running even after you disconnect from your VM.  The program will run for 5 weekdays.  If you want to stop it sooner you'll need to kill the process.  Type `ps ux` to get the list of processes, and then `kill -9 PID` where PID is the process ID associated with the running python program (it's a 5- or 6-digit number).  
+`nohup` allows the program to continue running even after you disconnect from your VM.  The program will run for 5 weekdays.  If you want to stop it sooner you'll need to kill the process.  Type `ps ux` to get the list of processes, and then `kill -9 PID` where PID is the process ID associated with the running python program (it's a 5- or 6-digit number).  
 
 ## stock-dashboard.py:
 A streamlit dashboard that retrieves all stock data from the MongoDB stocks collection and generates line plots for the selected tickers.  This is intended to run on your local computer.
